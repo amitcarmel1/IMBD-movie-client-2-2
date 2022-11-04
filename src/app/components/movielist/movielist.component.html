@@ -1,0 +1,14 @@
+<div>
+    <app-movie-details></app-movie-details>
+</div>
+<div id="movieList" class="movie-list">
+
+    <div  *ngFor="let movie of movies" class="movie-item" (click)="onMovieClick(movie.imdbID)">
+        <div>
+            <img  src={{movie.Poster}} alt={{movie.Title}} />
+        </div>
+        <h3>{{movie.Title}}</h3>
+
+    </div>
+</div>
+

@@ -1,0 +1,36 @@
+
+.display{
+    
+        display : flex; 
+}
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    
+}
+
+.movie-item{
+    align-content: center;
+    width: 15vw;
+    height: 37vh;
+    padding: 6px;
+    margin: 12px;
+    box-shadow: 1px 1px 2px 3px #223344;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10%;
+}
+
+.movie-item > div{
+    display: flex;
+    justify-content: center;
+}
+
+.movie-item img{
+    width:9vw;
+}

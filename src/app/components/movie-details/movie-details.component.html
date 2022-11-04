@@ -1,0 +1,18 @@
+<div *ngIf="!movie"></div>
+<div [className]="'movie-details'" (click)="onCloseModal()" *ngIf="movie">
+    <h2>{{movie.Title}}</h2>
+    <div>
+        <img class="display" src={{movie.Poster}} alt={{movie.Title}} />
+        <div>
+            <h4>Plot</h4>
+            <p>{{movie.Plot}}</p>
+            <h4>Actors</h4>
+            <p>{{movie.Actors}}</p>
+        </div>
+    </div>
+    <div>
+        <div>Year: {{movie.Year}}</div>
+        <div>IMDB Rating: {{movie.imdbRating}}</div>
+    </div>
+    
+</div>

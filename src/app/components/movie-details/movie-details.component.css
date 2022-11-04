@@ -1,0 +1,27 @@
+.movie-details{
+   
+    position: fixed;
+    top: -1px;
+    left: 20vw;
+    width: 50vw;
+    z-index: 10;
+    background-color: #001122;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 2px 3px #223344;
+}
+
+.movie-details img {
+    width: 20vw;
+}
+
+.movie-details > div{
+    display: flex;
+    justify-content: flex-start;
+}
+.movie-details > div > *{
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,18 @@
+
+.idI{
+    background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #e7e7e7;
+  border-radius: 20%;
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 300px;
+}
+.idB{
+    background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #e7e7e7;
+  border-radius: 40%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
